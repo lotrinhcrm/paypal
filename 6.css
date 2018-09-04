@@ -1,0 +1,449 @@
+@font-face {
+	font-family: 'HelveticaNeueMed';
+	src: url('img5/helveticaneuelight.ttf');
+}
+
+body {
+	margin: 0; padding:0;
+	font-family: "HelveticaNeueMed";
+}
+
+.to {
+	position: relative;
+	z-index: 1;
+	height: 480px;
+	width: 100%;
+}
+
+.img1 {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 480px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/hero/hero-sg-shop-and-pay.jpg');
+}
+
+.nav .hai {
+	background-color: white;
+	color: black;
+}
+
+.img2 {
+	width: 100%;
+	height: 530px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/editorial/editorial-sg-buyer-protection.jpg');
+}
+
+.nav {
+	height: 72px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding: 0 21%;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255,255,255, 0.3);
+	background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(255,255,255,0)); /* Standard syntax (must be last) */
+}
+
+.nav3 a{
+	color: white;
+	font-size: 13px;
+	padding: 10px 16px;
+	border: white solid 1px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.nav2 a{
+	text-transform: uppercase;
+	font-size: 15px;
+	color: white;
+	padding-right: 35px;
+	font-weight: bold;
+}
+
+.nav2 {
+	padding: 20px 14px;
+}
+
+.nav3 {
+	padding: 20px 14px;
+}
+
+.nav img {
+	height: 100%;
+	width: 130px;
+}
+
+.maintext1 {
+	position: absolute;
+	max-width: 1050px;
+	top: 110px;
+	left: 21%;
+	z-index: 2;
+}
+
+.maintext1 h1{
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	padding-bottom: 17px;
+}
+
+.maintext1 h6 {
+	text-align: center;
+	color: white;
+	padding-bottom: 17px;
+}
+
+.maintext1 a {
+	display: block;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 20px 10px 40px;
+}
+
+.maintext1 .mot {
+	background-image: url('img5/media.png');
+	background-repeat: no-repeat;
+	background-position: 3% 20%;
+	width: 324px;
+	height: 73px;
+	border: 2px white solid;
+	border-radius: 30px;
+	margin: auto;
+}
+
+.maintext1 .hai {
+	width: 324px;
+	height: 48px;
+	background-color: #0070BA;
+	border-radius: 30px;
+	margin: 20px auto;
+}
+
+.nut1 {
+	text-align: center;
+}
+
+.antam2 {
+	display: flex;
+	margin: auto;
+	max-width: 1150px;
+	justify-content: space-between;
+}
+
+.antam1 {
+	width: 240px;
+	height: 265px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.antam1 h6 {
+	padding-top: 30px;
+	color: #4A4A4A;
+	font-weight: bold;
+}
+
+.antam1 p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.antam {
+	text-align: center;
+}
+
+.text2 h6 {
+	display: inline;
+}
+
+.text2 {
+	height: 76px;
+	width: 100%;
+	background-color: #F5F7FA;
+}
+
+.text22 {
+	max-width: 1100px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.text22 a {
+	color: #0070BA;
+	border: solid 1px #0070BA;
+	border-radius: 20px;
+	font-size: 13px;
+	padding: 10px 15px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.antam h3 {
+	font-weight: bold;
+	color: #4A4A4A;
+	margin: 50px;
+	font-size: 40px;
+}
+
+.img22 {
+	max-width: 530px;
+	color: white;
+	position: absolute;
+	margin: 10% 20%;
+}
+
+.img22 h3 {
+	font-weight: bold;
+}
+
+.img22 p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.img22 a {
+	color: white;
+	font-size: 16px;
+}
+
+.cachsd {
+	width: 345px;
+	height: 335px;
+}
+
+.cachsd img {
+	padding: 5px 80px 35px;
+}
+
+.cachsd1 {
+	display: flex;
+	align-items: flex-start;
+}
+
+.cachsd2 {
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #4A4A4A;
+	padding: 15px;
+	width: 50px;
+	height: 44px;
+	text-align: center;
+	line-height: 12px;
+	margin-right: 20px;
+	font-size: 16px;
+}
+
+.cachsd3 h6 {
+	font-weight: bolder;
+	font-size: 17px;
+	padding-top: 4px;
+	margin-bottom: 4px;
+}
+
+.cachsd3 p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.cachsdto {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: auto;
+	border-top: 1px dashed #4A4A4A;
+	padding-top: 25px;
+}
+
+.dongian h3 {
+	text-align: center;
+	padding: 30px 0px;
+	font-weight: bolder;
+	color: #4A4A4A;
+}
+
+.guitien {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 100px;
+}
+
+.guitien2 {
+	max-width: 541px;
+	padding-left: 100px;
+}
+
+.dangky1 {
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	margin: -10px 0px 100px 0px;
+}
+
+.dangky11 {
+	color: white;
+	border-radius: 40px;
+	background-color: #0070BA;
+	padding: 12px 100px;
+}
+
+.dangky111 {
+	border-radius: 40px;
+	border: solid 1px #0070BA;
+	color: #0070BA;
+	padding: 15px 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.guitien2 h2 {
+	padding-top: 30px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.guitien2 p {
+	font-size: 16px;
+}
+
+.guitien2 a {
+	color: #0070BE;
+	font-size: 16px;
+}
+
+.muasam {
+	background-color: #F5F7FA;
+	text-align: center;
+	min-height: 508px;
+}
+
+.muasam h3 {
+	padding: 40px 0px;
+	max-width: 1096px;
+	margin: auto;
+	border-bottom: 1px dashed #4A4A4A;
+	color: #4A4A4A;
+	font-weight: bold;
+}
+
+.bonthuonghieu {
+	padding-top: 70px;
+}
+
+.giaiphap {
+	padding: 65px 0px 50px;
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+}
+
+.giaiphap2 {
+	padding: 65px 0px 50px;
+	text-align: center;
+	min-height: 246px;
+	background-color: #F5F7FA;
+}
+
+.giaiphap2 h3 {
+	margin-bottom: 40px;
+	font-weight: bold;
+	color: #4A4A4A;
+}
+
+.giaiphap h3 {
+	margin-bottom: 40px;
+	font-weight: bold;
+	color: #4A4A4A;
+}
+
+.footer {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.footertren {
+	padding-top: 63px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px dashed #4A4A4A;
+}
+
+.footertren a {
+	color: #4A4A4A;
+	padding-right: 16px;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.footerduoi {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ngonngu {
+	border-right: 1px solid #4A4A4A;
+}
+
+.footerduoi2 {
+	font-size: 14px;
+	padding: 10px 0px 40px;
+	color: #6C7378;
+}
+
+.footerduoi a {
+	color: #6C7378;
+	padding-right: 16px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.footerduoi {
+	margin-top: 15px;
+}
+
+/*
+List img:
+logo: https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg
+logo white: https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom-white.svg
+
+4 anh nho, thanh toan:
+1: https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/icons/no-fee75x75.svg
+2: https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/test/glyphs/shipping_refund75x75.svg
+3: https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/test/glyphs/credit_card75x75.svg
+4: https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/test/glyphs/buyer_protection75x75.svg
+
+3 anh nho:
+1: https://www.paypalobjects.com/digitalassets/c/website/marketing/global/kui/organisms/steps-accordion/step1.png
+2: https://www.paypalobjects.com/digitalassets/c/website/marketing/global/kui/organisms/steps-accordion/step2.png
+3: https://www.paypalobjects.com/digitalassets/c/website/marketing/global/kui/organisms/steps-accordion/step3.png
+
+gui tien: https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/vn/device/narr_sendmoney_vn2_1x.png
+
+logo thuong hieu:
+1	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-agoda.png
+2	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-asos.png
+3	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-ebay.png
+4	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-facebook.png
+5	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-iherb.png
+6	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-jomashop.png
+7	https://www.paypalobjects.com/digitalassets/c/APAC/04_paypal_apac_web_pagebuilder/sg/merchant-logo/logo-skype.png
+
+vietnam flag: https://www.paypalobjects.com/webstatic/mktg/icons/sprite_countries_flag4.png;
+
+*/
